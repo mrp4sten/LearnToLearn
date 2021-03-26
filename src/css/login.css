@@ -67,7 +67,7 @@ main {
   font-size: 1vw;
 }
 
-.btn-login {
+.btn-signin, .btn-signup{
   width: 35rem;
   height: auto;
   padding: 1rem;
@@ -80,7 +80,7 @@ main {
   transition: 0.3s;
 }
 
-.btn-login:hover {
+ .btn-signup:hover, .btn-signin:hover {
   transform: scale(1.05, 1.05);
 }
 
