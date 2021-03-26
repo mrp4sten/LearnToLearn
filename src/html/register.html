@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
+    <title>Register</title>
 
     <!--css-->
     <link rel="stylesheet" href="../css/normalize.css">
@@ -15,14 +15,14 @@
     <main>
         <div class="container">
             <div class="container_login">
-                <form class="container_form">
+                <form class="container_form" id="form">
                     <img class="img-logo" src="../img/Login.svg" alt="Login Image">
-                    <input type="text" placeholder="Your New User Name">
-                    <input type="password" placeholder="Your Password">
-                    <input type="password" placeholder="Repeat Your Password">
+                    <input type="text" placeholder="Your New User Name" name="username">
+                    <input type="password" placeholder="Your Password" name="password">
+                    <input type="password" placeholder="Repeat Your Password" name="passwordConfirm">
                 </form>
                 <input class="check" type="checkbox"> <label class="label-check">Keep me logged in</label>
-                <button class="btn-signin">Login</button>
+                <button type="submit" id="btnLogin" class="btn-signin">Login</button>
             </div>
             <div class="container_img">
                 <div>
@@ -31,6 +31,8 @@
             </div>
         </div>
     </main>
+
+    <script src="../js/app.js"></script>
     
 </body>
 </html>
