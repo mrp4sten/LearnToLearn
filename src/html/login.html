@@ -15,14 +15,14 @@
     <main>
         <div class="container">
             <div class="container_login">
-                <form class="container_form">
+                <form class="container_form" id="formLogin">
                     <img class="img-logo" src="../img/Login.svg" alt="Login Image">
-                    <input type="text" placeholder="Your User Name">
-                    <input type="password" placeholder="Your Password">
+                    <input type="text" placeholder="Your User Name" name="username">
+                    <input type="password" placeholder="Your Password" name="password">
                 </form>
                 <input class="check" type="checkbox"> <label class="label-check">Keep me logged in</label>
                 <a class="forgot-password" href="">Forgot Password</a>
-                <button class="btn-signin">Sign in</button>
+                <button class="btn-signin" id="btnLogin">Sign in</button>
                 <form action="./register.html">
                     <button class="btn-signup">Sign Up</button>
                 </form>
@@ -35,5 +35,6 @@
         </div>
     </main>
     
+    <script src="../js/login.js"></script>
 </body>
 </html>
