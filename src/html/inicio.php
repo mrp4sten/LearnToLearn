@@ -13,20 +13,18 @@
   <?php session_start() ?>
   <header class="header">
     <div class="contenedor-grande">
-      <h1>UTTT</h1>
+      <h1>LearnToLearn</h1>
       <nav class="barra">
         <ul class="barra-principal">
-          <li class="LtoR"><a href=""> <?php echo $_SESSION['USUARIO'] ?> </a></li>
-          <li class="LtoR"><a href="">About</a></li>
-          <li class="LtoR"><a href="">Services</a></li>
-          <li class="LtoR"><a href="">Gallery</a></li>
-          <li class="LtoR"><a href="">Blog</a></li>
-          <li class="LtoR"><a href="">Contact</a></li>
+          <li class="LtoR"><a href="">Bienvenido: <?php echo $_SESSION['USUARIO'] ?> </a></li>
+
         </ul>
-        <a href="" id="btnLogout" class="barra-login">Log In</a>
+        <a href="" id="btnLogout" class="barra-login">Log Out</a>
       </nav>
     </div>
   </header>
+
+
 
   <script src="../js/logout.js"></script>
 </body>

@@ -14,14 +14,14 @@ body {
     margin: 0;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(-45deg, #009882, #ef1de9);
-    background-size: 400% 400%;
+    background: linear-gradient(to right, #1CB5E0, #000046);
+    /* background-size: 400% 400%; */
     position: relative;
-    animation: change 10s ease-in-out infinite;
+    /* animation: change 10s ease-in-out infinite; */
 }
 
 a {
-    color: #47cab7;
+    color: white;
     text-decoration: none;
 }
 
@@ -147,4 +147,10 @@ ul {
     .barra-principal {
         display: flex;
     }
+}
+
+.card {
+    width: 20rem;
+    height: 20rem;
+    background-color: #009882;
 }
