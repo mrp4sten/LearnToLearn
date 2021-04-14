@@ -24,24 +24,6 @@ $events = $req->fetchAll();
 
     <title>Calendario</title>
 
-	<!-- css -->
-	<link rel="stylesheet" href="../public/css/main.css" />
-
-	<!-- google fonts-->
-	<link rel="preconnect" href="https://fonts.gstatic.com" />
-	<link
-  	href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
-  	rel="stylesheet"
-	/>
-
-	<!-- font awesome -->
-	<link
-  	rel="stylesheet"
-  	href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
-  	integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
-  	crossorigin="anonymous"
-	/>
-
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 	
@@ -49,16 +31,40 @@ $events = $req->fetchAll();
 	<link href='css/fullcalendar.css' rel='stylesheet' />
 
 
-    <!-- Custom CSS -->
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="../public/css/main.css" />
+
+    <!-- google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
 
 </head>
 
 <body>
 
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg">
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg" style="font-size: 2rem;">
       <div class="container">
-        <a class="navbar-brand" href="../views/index.html">
+        <a class="navbar-brand pt-3" href="../../index.html">
           <i class="fas fa-book"></i>
           Aprender a aprender
         </a>
@@ -382,18 +388,6 @@ $events = $req->fetchAll();
 	});
 
 </script>
-
-	<!-- popper and bootstrap.js -->
-	<script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
-      integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
-      integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
-      crossorigin="anonymous"
-    ></script>
 
 </body>
 
