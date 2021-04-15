@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Learn to Learn</title>
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./src/public/css/main.css" />
+
+    <!-- google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">
+          <i class="fas fa-book"></i>
+          Aprender a aprender
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="fas fa-chevron-circle-down"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./src/views/aboutUs.html">A serca de nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./src/calendario/index.php">Calendario</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./src/Clock/index.html">Cronometro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./src/todo-list/index.html">Mis Tareas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./src/Alertas/index.html">Consejos</a>
+            </li>
+          </ul>
+
+          <!-- Get Started -->
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDarkDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="fas fa-sign-in-alt"></i>
+                  Log in
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-dark"
+                  aria-labelledby="navbarDarkDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="./signin.html">Ingresar</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./signup.html"
+                      >Crear cuenta</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <!-- ond small devices login -->
+          <ul class="navbar-nav">
+            <li class="nav-item d-sm-block d-lg-none">
+              <a class="nav-link btn btn-outline-success" href="./signin.html"
+                >Ingresar</a
+              >
+            </li>
+            <li class="nav-item d-sm-block d-lg-none">
+              <a class="nav-link btn btn-outline-info" href="./signup.html"
+                >Crear cuenta</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+
+    <!-- Descripcion -->
+    <div class="container">
+      <div class="row m-3">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-8">
+          <h3>¿Qué es aprender a aprender?</h3>
+          <p class="text">
+            Aprender a aprender es una idea realizada por estudiantes de la 
+            Universidad Tecnológica de Tula Tepejí, y consta de herramientas 
+            que ya existen pero que aquí te vamos a enseñar usarlas de manera
+            correcta para que tu aprendas de forma autodidacta.
+          </p>
+          <p>
+            Lo primero que debes saber es que lo que aprendas dependera arduamente
+            y solo de ti, de tu constancia y fuerza de voluntad para no detenerte
+            y seguir adelante, los únicos requisitos que necesitas para empezar es 
+            la fuerza de voluntad, que evidentente te trajo aquí.
+          </p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+          <h3>Técnicas a usar</h3>
+          <ul>
+            <li>
+              Técnica de Pomodoro
+            </li>
+            <li>
+              Repaso Espaciado
+            </li>
+            <li>
+              Técnica de Feyman
+            </li>
+          </ul>
+        </div>
+      </div>
+      <img src="./src/public/img/aprender-online.jpg" class="img-fluid" alt="image">
+      <hr>
+      <div class="row m-5">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-8">
+          <h3>Técnica Pomodoro</h3>
+          <p>
+            Esta técnica consiste de elegir una tarea o actividad a realizar
+            (en este caso estudiar o aprender) y sirve para administrar tu tiempo
+            dejando que tu cerebro descance sin acumular estres y a su vez aprender.
+          </p>
+          <p>
+            Consta de un ciclo de estudio, recomendamos que mientras estes en el tiempo
+            de estudio no te distraigas y te concentres en ese tiempo.
+            <ol>
+              <li>
+                Estudiar durante 25minutos
+              </li>
+              <li>
+                Terminando ese tiempo descansa durante 5min.
+              </li>
+              <li>
+                Vuelve a estudiar durante 25min.
+              </li>
+              <li>
+                Descansa 5min
+              </li>
+              <li>
+                Si puedes aplica lo que aprendiste durante 25min
+              </li>
+              <li>
+                Descansa de 15min a 30min segun tu consideres
+              </li>
+              <li>
+                Repasa por 10min.
+              </li>
+              <li>
+                <strong>
+                  Finalizaste un pomodoro ahora vuelve a aplicar cuantas veces
+                  quieras
+                </strong>
+              </li>
+            </ol>
+          </p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+          <h4>Herramienta a usar:</h4>
+          <p>
+            Para que apliques esta técnica te recomendamos usar el temporizador
+            que el quipo de <strong>Aprender a aprender</strong> a desarrollado
+          </p>
+          <img src="./src/public/img/reloj.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+      <hr>
+      <div class="row m-3">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+          <h3>Repaso Espaciado</h3>
+          <p>
+            Esta tecnica consta de repasar cada determinado tiempo,
+            para reducir la probabilidad de perder el conocimiento 
+            adquirido en nuestra memoria.            
+          </p>
+          <table class="table table-dark table-hover">
+            <thead>
+              <tr>
+                <th scope="col">Aprendes</th>
+                <th scope="col">Probabilidad</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Estudias</th>
+                <th scope="row">90%</th>
+              </tr>
+              <tr>
+                <th scope="row">Repasas 24hrs despúes</th>
+                <th scope="row">70%</th>
+              </tr>
+              <tr>
+                <th scope="row">Repasas 1 semana despúes</th>
+                <th scope="row">50%</th>
+              </tr>
+              <tr>
+                <th scope="row">Repasas 1 mes despúes</th>
+                <th scope="row">10%</th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-8">
+          <h4>Herramienta a usar</h4>
+          <p>
+            Para que apliques está técnica de manera efectiva
+            el equipo de <strong>Aprender a aprender</strong>
+            desarrollo para ti un calendario en el que podras 
+            asignarte a ti mismo tu rutina de aprendizaje.
+          </p>
+          <strong>Recomendacion:</strong> Trata de ponerte recordatorios segun
+          la tabla mostrada, con esto un tema lo estaras repasando, 24hrs despues, 
+          1 semana despues y finalmente 1 mes despues para que no pierdas lo que
+          aprendiste de tu memoria.
+          <img src="./src/public/img/calendario.jpg" class="img-fluid" alt="calendario">
+        </div>
+      </div>
+      <hr>
+      <div class="row m-3">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-8">
+          <h3>Técnica de Feyman</h3>
+          <p>Consta de un par de pasos</p>
+          <ol>
+            <li>Elegir que enseñar o que aprender</li>
+            <li>Revisar y aprender diariamente</li>
+            <li>Enseñarlo</li>
+            <li>Recapitular y cerrar brechas</li>
+          </ol>
+          <img src="./src/public/img/tareas.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+          <h4>Herramienta recomendada</h4>
+          <p>
+            Finalmente contamos con una herramienta que se encuentra 
+            en el apartado de <i>"Mis tareas"</i> y esta te servira para
+            organizar los temas que debes estudiar ya que antes de aprender algo
+            debes saber primero que lo conforma(temas, subtemas, aplicaciones, etc...)
+            y todo eso lo podras estructurar en esta herramienta, además de que 
+            tendrás una mejor organización y poco a poco serás más constante.
+          </p>
+
+          <strong>Recomendacion:</strong>
+          <p>
+            El equipo de <strong>Aprender a aprender</strong> te recomienda enseñar 
+            mediante videotutoriales, clases presenciales o clases individuales, puede ser
+            con amigos, familia, vecinos o cualquier persona interesada lo que 
+            estes aprendiendo ya que así reforzaras el conocimiento adquirido.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- popper and bootstrap.js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+      integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+      integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
