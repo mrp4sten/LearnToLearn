@@ -24,22 +24,21 @@ $events = $req->fetchAll();
 
     <title>Calendario</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-	
-	<!-- FullCalendar -->
-	<link href='css/fullcalendar.css' rel='stylesheet' />
-
-
-    <!-- bootstrap -->
-    <link
+	    <!-- bootstrap -->
+		<link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
       crossorigin="anonymous"
     />
+	
+	<!-- FullCalendar -->
+	<link href='css/fullcalendar.css' rel='stylesheet' />
 
-    <!-- css -->
+
+    <!-- Custom CSS -->
+
+	<!-- css -->
     <link rel="stylesheet" href="../public/css/main.css" />
 
     <!-- google fonts-->
@@ -56,15 +55,14 @@ $events = $req->fetchAll();
       integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
       crossorigin="anonymous"
     />
-
 </head>
 
 <body>
 
-<!-- navbar -->
-<nav class="navbar navbar-expand-lg" style="font-size: 2rem;">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
       <div class="container">
-        <a class="navbar-brand pt-3" href="../../index.html">
+        <a class="navbar-brand" href="../../index.html">
           <i class="fas fa-book"></i>
           Aprender a aprender
         </a>
@@ -273,8 +271,17 @@ $events = $req->fetchAll();
     <!-- jQuery Version 1.11.1 -->
     <script src="js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+	    <!-- popper and bootstrap.js -->
+		<script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+      integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+      integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+      crossorigin="anonymous"
+    ></script>
 	
 	<!-- FullCalendar -->
 	<script src='js/moment.min.js'></script>
