@@ -1,25 +1,24 @@
-//ejemplo básico
 $("#btn1").click(function(){
-    Swal.fire('Sabias que');
+    Swal.fire('" DICEN QUE LA CURIOSIDAD MATO AL GATO , PERO ALMENOS MURIO SABIENDO"');
 });	
 
 $("#btn2").click(function(){
-    Swal.fire('Establecer metas es el primer paso para convertir lo invisible en visible');
+Swal.fire('"ESTABLECER METAS ES EL PRIMER PASO PARA CONVERTIR LO INVISIBLE EN LO VISIBLE"');
 });	
 
-//Con imagen de fondo
 $("#btn3").click(function(){
-    Swal.fire( 
-        {
-        imageUrl: 'https://media.giphy.com/media/Ie2hMaUTeAbg1yago1/giphy.gif',
-        imageHeight: 412,
-        imageAlt: 'A tall image'
-        
-        
-
-        
-    });
-    
-
-
+Swal.fire('"UNA PERSONA POSITIVA CONVIERTE SUS PROBLEMAS EN RETOS , NUNCA EN OSTACULOS."');
 });	
+
+$("#btn4").click(function(){
+Swal.fire('¿QUE SERIA DE LA VIDA SI NO TUVIÉRAMOS EL VALOR DE INTENTAR ALGO NUEVO?');
+});	
+
+$("#btn5").click(function(){
+Swal.fire('SI EL PLAN NO FUNCIONA CAMBIA EL PLAN PERO NO CAMBIES LA META');
+});	
+
+$("#btn6").click(function(){
+Swal.fire('NO PERMITAS QUE LAS OPINIONES DE LAS DEMÁS AHOGUEN TU VOZ INTERIOR SE VALIENTE Y OBEDECE A TU CORAZÓN Y TU INTUICIÓN STEVE JOBS');
+});	
+
