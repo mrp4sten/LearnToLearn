@@ -1,0 +1,212 @@
+:root {
+    --fuente-principal: 'Noto Sans SC';
+    --fuente-regular: 400;
+    --fuente-light: 300;
+    --fuente-medium: 500;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-family: var(--fuente-principal);
+}
+
+a {
+
+    color: black;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(161, 200, 254);
+    background: linear-gradient(90deg, rgba(161, 200, 254, 1) 0%, rgba(31, 31, 112, 1) 76%);
+}
+
+.contenedor {
+
+
+    width: 70%;
+    height: 90%;
+    margin-left: 1rem;
+    margin-right: 3rem;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 2rem;
+    font-weight: var(--fuente-medium);
+    text-decoration: none;
+}
+
+h2 {
+    font-weight: var(--fuente-regular);
+    font-size: 3.5rem;
+}
+
+@media (min-width: 900px) {
+    .contenedor {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    .tarjeta_login {
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+        justify-content: space-around;
+
+
+    }
+
+    .tarjeta_imagen {
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+
+    }
+
+    input {
+        width: 100%
+    }
+}
+
+.tarjeta_login {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1.6rem;
+
+
+}
+
+.tarjeta_imagen {
+    background-color: #E6F2FF;
+    width: 100%;
+    height: 100%;
+
+}
+
+i {
+    font-size: 6rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding-top: 2rem;
+    width: 60%;
+
+}
+
+.formulario input,
+.formulario h2,
+.formulario a {
+    margin-bottom: 2rem;
+}
+
+.formulario a {
+    color: #1f1f70;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+input {
+    border: 1px solid rgb(214, 212, 212);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+/* *********Elimina bordes al entrar al input******* */
+input,
+.boton:focus,
+input.form-control:focus {
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+/* ************************************* */
+
+.imagen {
+    width: 90%;
+    max-width: 90rem;
+    height: 80%;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+@media (min-width: 1140px) {
+    .imagen {
+        margin-left: -6rem;
+
+    }
+}
+
+.btnLogin {
+    background-color: #1f1f70;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.contenido {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    color: white;
+    font-weight: var(--fuente-medium);
+    font-size: 1.2rem;
+}
+
+.btn-title {
+    grid-column: 2/3;
+}
+
+.icon-arrow {
+    justify-self: end;
+}
+
+.target-register {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.target-register a {
+    margin-left: .5rem;
+    color: #657FA5;
+}
+
+.target-register p {
+    color: rgb(167, 167, 167);
+}
+
+.cursor-bloqueado {
+    cursor: not-allowed;
+    background-color: #3f3f86;
+}
